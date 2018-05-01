@@ -23,6 +23,7 @@ app.get('/store', function (req, res) {
 app.get('/first-template', function (req, res) {
     res.render('first-template');
 });
+
 app.get('/dynamic-view', function (req, res) {
     res.render('dynamic', {
         name: "Moja dynamiczna strona",
